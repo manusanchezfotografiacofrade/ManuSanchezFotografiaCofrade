@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Galerías de fotografía cofrade y Semana Santa de Jerez | Manu Sánchez</title>
+<meta name="description" content="Galerías de fotografía cofrade: Semana Santa de Jerez, cultos, besamanos, glorias y procesiones extraordinarias, por año y hermandad.">
+<link rel="canonical" href="https://TU-USUARIO.github.io/NOMBRE-REPO/galerias.html">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="es_ES">
+<meta property="og:site_name" content="Manu Sánchez Fotografía Cofrade">
+<meta property="og:title" content="Galerías de fotografía cofrade y Semana Santa de Jerez | Manu Sánchez">
+<meta property="og:description" content="Galerías de fotografía cofrade: Semana Santa de Jerez, cultos, besamanos, glorias y procesiones extraordinarias, por año y hermandad.">
+<meta property="og:url" content="https://TU-USUARIO.github.io/NOMBRE-REPO/galerias.html">
+<meta property="og:image" content="https://TU-USUARIO.github.io/NOMBRE-REPO/img/portada/og.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#1c1b1d">
+<link rel="icon" href="img/logos/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="">
+<header class="site-header">
+  <a class="brand" href="index.html">Manu Sánchez<small>Fotografía Cofrade</small></a>
+  <button class="menu-btn" aria-label="Abrir menú" aria-expanded="false">Menú</button>
+  <nav class="nav" aria-label="Principal"><a href="index.html">Inicio</a><a href="galerias.html" aria-current="page">Galerías</a><a href="sobre-mi.html">Sobre mí</a><a href="contacto.html">Contacto</a></nav>
+</header>
+<main class="page">
+<section class="wrap" id="listado">
+  <h1>Galerías</h1>
+  <div class="filters">
+    <label>Año <select id="f-year"><option value="">Todos</option></select></label>
+    <label>Tipo de culto o evento <select id="f-cat"><option value="">Todos</option></select></label>
+    <label>Hermandad <select id="f-her"><option value="">Todas</option></select></label>
+  </div>
+  <div class="cards" id="grid-galerias"></div>
+  <p class="empty" id="vacio" hidden>No hay galerías con estos filtros. Prueba a quitar alguno.</p>
+</section>
+<section class="wrap" id="detalle" hidden>
+  <a class="link" href="galerias.html">Volver a galerías</a>
+  <h1 id="d-titulo"></h1>
+  <p class="meta" id="d-meta"></p>
+  <div class="photos" id="photos"></div>
+</section>
+</main>
+<footer class="site-footer">
+  <p class="brand-f">Manu Sánchez Fotografía Cofrade</p>
+  <p>Jerez de la Frontera</p>
+  <p class="small">© <span id="year">2026</span> Todas las fotografías son propiedad de su autor. Prohibida su reproducción sin permiso.</p>
+</footer>
+<script src="js/galerias-data.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
