@@ -1,4 +1,3 @@
 User-agent: *
 Allow: /
-
-Sitemap: https://TU-USUARIO.github.io/NOMBRE-REPO/sitemap.xml
+Sitemap: https://manusanchezfotografiacofrade.es/sitemap.xml

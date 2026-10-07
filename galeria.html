@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería | Manu Sánchez Fotografía Cofrade</title>
+    <meta name="description" content="Explora el portfolio fotográfico de Semana Santa, besamanos, cultos y procesiones capturados por Manu Sánchez.">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="navbar solid-nav">
+        <div class="logo"><a href="index.html">MANU SÁNCHEZ</a></div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="galeria.html" class="active">Galería</a></li>
+                <li><a href="eventos.html">Eventos</a></li>
+                <li><a href="sobre-mi.html">Sobre Mí</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+        <div class="menu-toggle" id="mobile-menu">
+            <span></span><span></span><span></span>
+        </div>
+    </header>
+
+    <main class="page-container">
+        <h1 class="page-title">Portfolio Cofrade</h1>
+        <p class="page-subtitle">Selección de mis mejores obras organizadas por momentos.</p>
+
+        <div class="gallery-grid">
+            <div class="gallery-item">
+                <img src="https://via.placeholder.com/600x800/222/d4af37?text=Foto+1" alt="Cristo en procesión" class="gallery-img" loading="lazy">
+            </div>
+            <div class="gallery-item">
+                <img src="https://via.placeholder.com/800x600/222/d4af37?text=Foto+2" alt="Detalle de palio" class="gallery-img" loading="lazy">
+            </div>
+            <div class="gallery-item">
+                <img src="https://via.placeholder.com/600x600/222/d4af37?text=Foto+3" alt="Besamanos Virgen" class="gallery-img" loading="lazy">
+            </div>
+        </div>
+    </main>
+
+    <div id="lightbox" class="lightbox">
+        <span class="close-lightbox">&times;</span>
+        <button class="nav-btn prev-btn">&#10094;</button>
+        <img class="lightbox-content" id="lightbox-img" src="">
+        <button class="nav-btn next-btn">&#10095;</button>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Manu Sánchez Fotografía Cofrade. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
