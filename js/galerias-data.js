@@ -30,7 +30,7 @@ const GALERIAS = [
     lugar: "Jerez de la Frontera", 
     hermandad: "La Entrega",
     carpeta: "/img/galerias/san-francisco-guada", 
-    portada: "/img/galerias/san-francisco-guada/01.jpg",
+    portada: "/img/galerias/san-francisco-guada/01.JPG",
     fotos: ["01.jpg"]
   }
 ];
