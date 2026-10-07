@@ -6,7 +6,7 @@
      img/galerias/<carpeta>/01.jpg          (foto grande, 1600 px)
      img/galerias/<carpeta>/thumbs/01.jpg   (miniatura, 600 px)
    ===================================================== */
-//const MARCA_AGUA = "Manu Sánchez Fotografía Cofrade";
+const MARCA_AGUA = "";
 
 const GALERIAS = [
   {
