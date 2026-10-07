@@ -19,7 +19,7 @@ const GALERIAS = [
    {
     id: "san-francisco-entrega", titulo: "Procesión San Francisco de Asís - Hermandad de la Entrega", evento: "Procesión", categoria: "Procesión",
     fecha: "2026-10-04", lugar: "Jerez de la Frontera", hermandad: "La Entrega",
-    carpeta: "img/galerias/", portada: "",
-    fotos: [""]
+    carpeta: "img/galerias/san-francisco-guada", portada: "img/galerias/san-francisco-guada/1.JPG",
+    fotos: ["1.JPG"]
   },
 ];
